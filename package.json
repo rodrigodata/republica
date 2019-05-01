@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "fastify start server.js --port=3000",
-    "start:dev": "fastify start server.js --port=3001 -P -w",
+    "start:dev": "fastify start server.js --port=3001 -P",
     "install:setup": "npm run install:only:prod & npm run install:only:dev",
     "install:only:prod": "npm install --only=prod",
     "install:only:dev": "npm install --only=dev"
@@ -27,6 +27,7 @@
   "homepage": "https://github.com/rodrigodata/republica#readme",
   "dependencies": {
     "fastify": "1.13.3",
-    "fastify-cli": "0.27.0"
+    "fastify-cli": "0.27.0",
+    "fastify-plugin": "0.2.2"
   }
 }
