@@ -1,13 +1,10 @@
 const OBJETO = {
   type: "object",
   properties: {
-    _id: { type: "string" },
-    morador: {
-      type: "object",
-      properties: {
-        _id: { type: "string" },
-        nome: { type: "string" }
-      }
+    type: "object",
+    properties: {
+      _id: { type: "string" },
+      nome: { type: "string" }
     }
   }
 };
