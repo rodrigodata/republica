@@ -1,0 +1,32 @@
+{
+  "name": "republica",
+  "version": "0.0.1",
+  "description": "POC de sistema gerenciador de república/apartamento compartilhados. Estudando Fastify.",
+  "main": "server.js",
+  "scripts": {
+    "start": "fastify start server.js --port=3000",
+    "start:dev": "fastify start server.js --port=3001 -P -w",
+    "install:setup": "npm run install:only:prod & npm run install:only:dev",
+    "install:only:prod": "npm install --only=prod",
+    "install:only:dev": "npm install --only=dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodrigodata/republica.git"
+  },
+  "keywords": [
+    "fastify",
+    "nodejs",
+    "mvc"
+  ],
+  "author": "Rodrigo Andrade <data@rodrigoandrade.me>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rodrigodata/republica/issues"
+  },
+  "homepage": "https://github.com/rodrigodata/republica#readme",
+  "dependencies": {
+    "fastify": "1.13.3",
+    "fastify-cli": "0.27.0"
+  }
+}
