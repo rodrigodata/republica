@@ -1,11 +1,6 @@
 "use strict";
 
-/* Importação de Controllers */
-const MoradorController = require("./controllers/morador/Morador");
-
-/* Importação de Schemas aplicação */
-const { MORADOR } = require("./schemas");
-
+/* Registramos o arquivo ROUTES por versão de endpoint. */
 module.exports = async (fastify, options) => {
-  fastify.get("/", { schema: MORADOR.BUSCAR }, MoradorController);
+  fastify.register(require("./routes/v1"), { prefix: "/v1" });
 };

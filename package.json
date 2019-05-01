@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "fastify start server.js --port=3000",
-    "start:dev": "fastify start server.js --port=3001 --pretty-logs --watch --log-level=info",
+    "start:dev": "fastify start server.js --port=3000 --pretty-logs --watch --log-level=info",
     "install:setup": "npm run install:only:prod & npm run install:only:dev",
     "install:only:prod": "npm install --only=prod",
     "install:only:dev": "npm install --only=dev"
