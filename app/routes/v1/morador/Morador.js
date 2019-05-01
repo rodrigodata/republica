@@ -1,4 +1,4 @@
-/* Importação de Controllers */
+/* Importação de Controllers  */
 const MoradorController = require("../../../controllers/morador/Morador");
 
 /* Importação de Schemas aplicação */

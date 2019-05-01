@@ -1,6 +1,6 @@
 {
   "name": "republica",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "POC de sistema gerenciador de república/apartamento compartilhados. Estudando Fastify.",
   "main": "server.js",
   "scripts": {

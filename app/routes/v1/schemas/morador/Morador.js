@@ -1,5 +1,3 @@
-"use strict";
-
 const OBJETO = {
   type: "object",
   properties: {
